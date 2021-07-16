@@ -1,0 +1,35 @@
+#nav{
+    font-size: large;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    }
+#header{
+        background-color: cornsilk;
+       }
+#nav ul{
+    left: auto;
+    align-content: space-between;
+    list-style: none;
+    align-items: baseline;
+    position: relative;
+    cursor: pointer;
+  }
+#leftside{
+    width: 20%;
+    height: 600px;
+    float: left;
+    background-color: palegreen;
+}
+#center{
+    width: 60%;
+    height: 600px;
+    float: left;
+    background-color: rgb(18, 218, 84);
+}
+#rightside{
+    width: 20%;
+    height: 600px;
+    float: left;
+    background-color: gold;
+}
