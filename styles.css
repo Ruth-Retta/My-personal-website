@@ -1,35 +1,60 @@
+body{
+    margin: 20px 100px 20px 100px;
+    height: 1000px;
+    padding: 10px;
+    border-radius: 10;
+}
+#header{
+    background-color: #101820FF;
+    border-radius: 25px;
+    padding: 10px;
+}
 #nav{
     font-size: large;
     width: 200px;
     height: 100px;
-    background-color: aqua;
     }
-#header{
-        background-color: cornsilk;
-       }
-#nav ul{
-    left: auto;
-    align-content: space-between;
-    list-style: none;
-    align-items: baseline;
-    position: relative;
-    cursor: pointer;
-  }
-#leftside{
-    width: 20%;
-    height: 600px;
-    float: left;
-    background-color: palegreen;
+#name{
+    font-size: large;
 }
-#center{
+#main{
+    height: 600px;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+#article{
     width: 60%;
-    height: 600px;
+    height: 100%;
     float: left;
-    background-color: rgb(18, 218, 84);
+    background-color: #F2AA4CFF;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
 }
-#rightside{
-    width: 20%;
-    height: 600px;
+#aside{
+    width: 30%;
+    height: 100%;
     float: left;
-    background-color: gold;
+    background-color: #101820FF;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+#logo{
+    width: 160px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#footer{
+    margin: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #F2AA4CFF;
 }
