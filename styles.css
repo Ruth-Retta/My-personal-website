@@ -1,19 +1,32 @@
 body{
-    margin: 20px 100px 20px 100px;
-    height: 1000px;
+    margin: 40px 100px 20px 100px;
     padding: 10px;
-    border-radius: 10;
+    border-radius: 10px;
+    color: white;
 }
 #header{
     background-color: #101820FF;
     border-radius: 25px;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 1100px;
+    height: auto;
 }
-#nav{
-    font-size: large;
-    width: 200px;
-    height: 100px;
-    }
+li{
+    display: inline;
+    float: right;
+}
+ul li a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #101820FF;
+}
+ul li a:hover{
+    background-color: #F2AA4CFF;
+}
 #name{
     font-size: large;
 }
@@ -21,10 +34,10 @@ body{
     height: 600px;
     border-radius: 25px;
     padding: 20px;
-    margin: 10px;
+    margin: 25px;
 }
 #article{
-    width: 60%;
+    width: 70%;
     height: 100%;
     float: left;
     background-color: #F2AA4CFF;
@@ -33,13 +46,13 @@ body{
     margin: 10px;
 }
 #aside{
-    width: 30%;
+    width: 20%;
     height: 100%;
     float: left;
-    background-color: #101820FF;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
+    position: inherit;
 }
 #logo{
     width: 160px;
@@ -57,4 +70,10 @@ body{
     border-radius: 25px;
     padding: 10px;
     background-color: #F2AA4CFF;
+}
+#adds{
+    border-radius: 25px;
+    padding: 10px;
+    background-color: black;
+    height: auto;
 }
