@@ -11,51 +11,72 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="js.js"></script>
     </head>
     <body>
             <div id="header">
                 <div id="circularImage">
-                     <img id="ruth" src="ruth.jpg" alt="Ruth" class="center"> 
+                     <img id="ruth1" src="ruth.jpg" alt="Ruth" onmouseover="imageEnlarge()" onmouseout="imageReset()"> 
                 </div>
                 <div id="nav">
                     <ul>
-                    <li><a href="#contact">Contact</a>
-                    <li><a href="#resume">Resume</a>
-                    <li><a href="#about">About</a>
-                    <li><a href="#skills">Skills</a>
-                    <li><a href="#awards">Awards</a>
-                    <li><a href="#home">Home</a>
+                    <li id="page" onclick="onPage('page1')"><a href="#contact">Contact</a>
+                    <li id="page" onclick="onPage('page2')"><a href="#awards">Awards</a>
+                    <li id="page" onclick="onPage('page3')"><a href="#resume">Resume</a>
+                    <li id="page" onclick="onPage('page4')"><a href="#about">About</a>
+                    <li id="page" onclick="onPage('page5')"><a href="#skills">Skills</a>
+                    <li id="page" onclick="onPage('page6')"><a href="#home">Home</a>
                     </ul>
                 </div>
             </div>
             <div id="main">
                 <div id="home">
-                    <h1>Hey, there 'm Ruth</h1>
-                </div>
-                <div id="awards">
-
+                    <h1>Hey, there 'm Ruth &#128521</h1>
                 </div>
                 <div id="skills">
                     <h1>My skills...</h1>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                        <ul>
+                            <li><h2>Programing stuffs...</h2>
+                                <ul>
+                                    <li>C++
+                                    <li>Pyhton
+                                    <li>Java
+                                    <li>MYSQL
+                                    <li>Html
+                                    <li>Css
+                                    <li>Java script
+                                </ul>
+                            <li><h2>Acadamic stuffs...</h2>
+                                <ul>
+                                    <li>Mathematics
+                                </ul>
+                            <li><h2>Social staffs...</h2>
+                                <ul>
+                                    <li>volunteering
+                                    <li>counselling
+                                    <li>Organizing events
+                                </ul>
+                        </ul>
                 </div>
                 <div id="about">
-                
+                    <h1>Autobiograhy</h1>
+                        <p>My name is Ruth Retta. I am an Ethopian&#128525. I'm from Addis. I finished high school in Neway Challenge Academy. Currently I'm third year computer science and engineering student in Adama Science and Technology University. </p>
                 </div>
                 <div id="resume">
                     <p>not uploaded yet</p>
                 </div>
+                <div id="awards">
+                    <p>not uploaded yet</p>
+                </div>
                 <div id="contact">
-                    <p>0929194856</p>
+                    <p>+251929194856</p>
                     <p>@ruthretta</p>
                     <p>ruthretta</p>
                     <p>@Ruth91985531</p>
                 </div>
             </div>
             <div id="footer">
-                <div id="circularImage center">
+                <div id="circularImage">
                      <img id="logo" src="logo.jpg" alt="Ruth" class="center"> 
                 </div>
                 <p></p>
