@@ -1,79 +1,115 @@
 body{
     margin: 40px 100px 20px 100px;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
     border-radius: 10px;
-    color: white;
 }
 #header{
-    background-color: #101820FF;
+    background-color: #F7E7BD;
     border-radius: 25px;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    width: 1100px;
-    height: auto;
+    padding: 5px 20px;
+    width: 1000px;
+    height: 150px;
+    margin: 0px 25px 0px 25px;
+}
+#circularImage{
+    float: left;
+}
+#ruth{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 li{
     display: inline;
     float: right;
 }
 ul li a{
-    color: white;
+    color: black;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
-    background-color: #101820FF;
 }
 ul li a:hover{
-    background-color: #F2AA4CFF;
-}
-#name{
-    font-size: large;
+    background-color: #E79E4F;
 }
 #main{
-    height: 600px;
     border-radius: 25px;
     padding: 20px;
+    margin: 10px 25px 25px 25px;
+    width: 1000px;
+}
+#home{
+    background-color: #E3D18A;
+    border-radius: 25px;
+    padding: 10px;
+    width: 960px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+}
+#awards{
+    background-color: #C39E5C;
+    border-radius: 25px;
+    padding: 10px;
+    width: 960px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+}
+#skills{
+    background-color: #BD9354;
+    border-radius: 25px;
+    padding: 10px;
+    width: 960px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+}
+#about{
+    background-color: #9E7540;
+    border-radius: 25px;
+    padding: 10px;
+    width: 960px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+}
+#resume{
+    background-color: #85603F;
+    border-radius: 25px;
+    padding: 10px;
+    width: 960px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+}
+#contact{
+    background-color: #91684A;
+    border-radius: 25px;
+    padding: 10px;
+    width: 960px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+}
+#footer{
     margin: 25px;
-}
-#article{
-    width: 70%;
-    height: 100%;
-    float: left;
-    background-color: #F2AA4CFF;
     border-radius: 25px;
-    padding: 10px;
-    margin: 10px;
-}
-#aside{
-    width: 20%;
-    height: 100%;
-    float: left;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 10px;
-    position: inherit;
+    padding: 20px;
+    background-color: #493323;
+    height: 100px;
+    width: 1000px;
+    text-align: center;
 }
 #logo{
-    width: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
 }
-.center {
+#circularImage{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-#footer{
-    margin: 50px;
-    border-radius: 25px;
-    padding: 10px;
-    background-color: #F2AA4CFF;
-}
-#adds{
-    border-radius: 25px;
-    padding: 10px;
-    background-color: black;
-    height: auto;
 }
